@@ -1,10 +1,35 @@
-# React + Vite
+# Chat GPT Summarizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Summary text content from given URL by using Summarizer API from Rapid API
 
-Currently, two official plugins are available:
+https://rapidapi.com/restyler/api/article-extractor-and-summarizer
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshots
 
-# chat-gpt-summarizer
+![Demo1](Demo1.png)
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`VITE_RAPID_API_ARTICLE_SUMMARY_KEY:RAPID_API_KEY`
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+## Installation
+
+Install my-project with npm
+
+```bash
+  npm install my-project
+  cd my-project
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
